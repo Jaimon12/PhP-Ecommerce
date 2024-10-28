@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+        body {
+            line-height: 1.6;
+            background-image: url('images.jpg'); /* Adjust the path to your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+/* Header styles */
+header {
+    background: rgba(51, 51, 51, 0.9); /* Semi-transparent background for header */
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+    border-radius: 10px;
+}
+
+main h1, main h2 {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main div {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Ensure inner divs have a slightly more opaque background */
+}
+
+main a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+main a:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background: rgba(51, 51, 51, 0.9); /* Semi-transparent background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
